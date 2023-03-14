@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta charset="utf-8" />
+        <title>Leaflet</title>
+
+        <!-- Load resources from leaflet -->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+        <link rel="stylesheet" href="../style.css">
+
+        <!-- Load our own CSS -->
+        <link rel="stylesheet" href="map.css" />
+    </head>
+    <body>
+        <nav>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="transition.html">Transition</a></li>
+              <li><a href="map.html">Map</a></li>
+              <li><a href="animation.html">Animation</a></li>
+              <li><a href="contact.html">Contact</a></li>  
+            </ul>
+        </nav>
+
+        <div class="page-container">
+
+            <h1>Map of the world</h1>
+
+            <p>
+                <button id="find-me">Zoom</button>
+            </p>
+
+            <!-- Element to insert the map into -->
+            <div id="myMap"></div>
+
+        </div>
+
+        <!-- Load your javascript here -->
+        <script src="../map.js"></script>
+
+    </body>
+</html>
+
